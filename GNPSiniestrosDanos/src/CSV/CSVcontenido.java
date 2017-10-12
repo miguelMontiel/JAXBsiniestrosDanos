@@ -3,10 +3,11 @@ package CSV;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class CSVcontenido extends CSV
 {
-	public String getTodo(String todo)
+	public ArrayList<String> getTodo()
 	{
 		CSV csv = new CSV();
 		BufferedReader bufferedreader = null;
@@ -14,6 +15,7 @@ public class CSVcontenido extends CSV
 		String linea;
 		String cortarCSV = ",";
 		String[] texto;
+		ArrayList<String> todo = new ArrayList<String>();
 		
 		try
 		{
@@ -24,7 +26,7 @@ public class CSVcontenido extends CSV
 				texto = linea.split(cortarCSV);
 				for(int i = 0; i < texto.length; i++)
 				{
-					todo = texto[i].toString();
+					todo.add(texto[i]);	
 				}
 			}
 		}
