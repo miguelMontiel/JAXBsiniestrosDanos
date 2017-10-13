@@ -10,6 +10,7 @@ import javax.swing.JTextField;
 
 public class ventanaNuevoXML 
 {
+	/*
 	public String ventanaXML()
 	{
 		String archivoXML;
@@ -37,4 +38,5 @@ public class ventanaNuevoXML
 				});
 		return archivoXML;
 	}
+	*/
 }

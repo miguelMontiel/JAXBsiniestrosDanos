@@ -1,9 +1,9 @@
 package GNP;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 
 @XmlRootElement(name = "InsClaims")
+@XmlAccessorType(XmlAccessType.FIELD)
 // @XmlType(propOrder = {"catastropheCode", "claimNumber"})
 public class GNPSiniestrosDanos 
 {
@@ -202,6 +202,7 @@ public class GNPSiniestrosDanos
 	String VisitType;
 	String WasanyoneInjured;
 	String ListOfGnpSiniestrosServiciosDanosBc;
+	
 	
 	@XmlElement
 	public Object getInsClaims() {

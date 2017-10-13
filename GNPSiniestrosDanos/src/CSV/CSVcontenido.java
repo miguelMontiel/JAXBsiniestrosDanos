@@ -23,11 +23,14 @@ public class CSVcontenido extends CSV
 			
 			while((linea = bufferedreader.readLine()) != null)
 			{
+				todo.clear();
 				texto = linea.split(cortarCSV);
 				for(int i = 0; i < texto.length; i++)
 				{
-					todo.add(texto[i]);	
+					todo.add(texto[i]);
 				}
+				System.out.println(todo);
+				return todo;
 			}
 		}
         catch(IOException e){e.printStackTrace();}
@@ -35,13 +38,10 @@ public class CSVcontenido extends CSV
         {
             if(bufferedreader != null)
             {
-                try 
-                {
-                    bufferedreader.close();
-                }
+                try{bufferedreader.close();}
                 catch(IOException e){e.printStackTrace();}
             }
         }
-		return todo;
+		return null;
 	}
 }
