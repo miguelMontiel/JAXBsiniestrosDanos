@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InsClaims>
+    <CatastropheCode></CatastropheCode>
+    <ClaimNumber>Mundo</ClaimNumber>
+    <ClaimServiceLocn>Esta</ClaimServiceLocn>
+    <CrossReferencePolicies>Es</CrossReferencePolicies>
+    <CurrencyCode>Una</CurrencyCode>
+    <Damages>Prueba</Damages>
+    <DiagnosisCode></DiagnosisCode>
+    <GNPAgenteSICA>CSV</GNPAgenteSICA>
+</InsClaims>

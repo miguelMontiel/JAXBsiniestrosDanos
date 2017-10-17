@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InsClaims>
+    <CatastropheCode></CatastropheCode>
+    <ClaimNumber>Hola</ClaimNumber>
+    <ClaimServiceLocn></ClaimServiceLocn>
+    <CrossReferencePolicies>Mundo</CrossReferencePolicies>
+    <CurrencyCode>Esta</CurrencyCode>
+    <Damages>Es</Damages>
+    <DiagnosisCode>Una</DiagnosisCode>
+    <GNPAgenteSICA></GNPAgenteSICA>
+    <GNPCDMonedaSICA></GNPCDMonedaSICA>
+    <GNPClaveOficina></GNPClaveOficina>
+    <GNPCodigoFiliacionTomador></GNPCodigoFiliacionTomador>
+    <GNPCodigoProductoTecnico></GNPCodigoProductoTecnico>
+    <GNPCristaleraSICA></GNPCristaleraSICA>
+    <GNPDescripcionClienteSICA></GNPDescripcionClienteSICA>
+    <GNPDescripcionConcesionarioSICA></GNPDescripcionConcesionarioSICA>
+    <GNPDescripcionObjeto></GNPDescripcionObjeto>
+    <GNPError></GNPError>
+    <GNPInconclusoFlag>Prueba</GNPInconclusoFlag>
+    <GNPLlamadaFin></GNPLlamadaFin>
+    <GNPLlamadaInicio></GNPLlamadaInicio>
+    <GNPPTDanosCD></GNPPTDanosCD>
+    <GNPPresiniestroGuardadoFlag>de</GNPPresiniestroGuardadoFlag>
+    <GNPPresiniestroSICA></GNPPresiniestroSICA>
+    <GNPSiniestroCondicionado>CSV</GNPSiniestroCondicionado>
+    <GNPSolicitudAnticipadaFlag>para</GNPSolicitudAnticipadaFlag>
+    <GNPSolicitudAnticipadaServicioFlag>ver</GNPSolicitudAnticipadaServicioFlag>
+</InsClaims>
